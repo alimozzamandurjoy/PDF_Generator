@@ -1,7 +1,7 @@
 from fileinput import filename
 import profile
 from urllib import response
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from .models import Profile
 import pdfkit
 from django.http import HttpResponse
@@ -24,6 +24,7 @@ def accept(request):
         
         profile = Profile(name=name,email=email,phone=phone,summary=summary,degree=degree,school=school,university=university,previous_work=previous_work,skills=skills)
         profile.save()
+        return redirect('viewresume', id= profile.id)
 
     return render(request,'pdfapp/accept.html')
 
@@ -41,7 +42,10 @@ def resume(request,id):
     response['Content-Disposition']= 'attachment'
     filename= "resume.pdf"
     return response
-
+def viewresume(request,id):
+    user_profile = Profile.objects.get(pk=id)
+    return render(request,'pdfapp/resume.html',{'user_profile':user_profile})
+    
 def list(request):
     profiles= Profile.objects.all()
     return render (request,'pdfapp/list.html',{'profiles':profiles})
