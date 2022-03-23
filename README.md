@@ -1,9 +1,8 @@
 # This is a simple PDF_Generator 
 ## Here is some SS of the project
-![pdf1](https://user-images.githubusercontent.com/42358866/159494779-b0ee6ed2-ba29-4ac8-b3a2-6f2343b19f8f.png)
 
-![pdf2](https://user-images.githubusercontent.com/42358866/159494811-94f69b35-160b-4671-8a05-4ef7122872be.png)
+![PP1](https://user-images.githubusercontent.com/42358866/159729975-8c9360f7-ee62-4ea4-b486-968e68367f74.png)
 
-![pdf3](https://user-images.githubusercontent.com/42358866/159494835-b8dc74cf-ff9e-40b0-9c4e-def8360059f4.png)
+![PP2](https://user-images.githubusercontent.com/42358866/159729984-1f79f683-a89a-42cb-95c2-616dac7bb5ac.png)
 
-![pdf4](https://user-images.githubusercontent.com/42358866/159495555-dd357e43-79e8-4e0d-bda9-80134f60f1c0.png)
+![PP3](https://user-images.githubusercontent.com/42358866/159730000-597cdcae-71ff-4e4d-8d22-269f0955f809.png)
